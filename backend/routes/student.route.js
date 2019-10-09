@@ -3,7 +3,7 @@ const app = express();
 const studentRoute = express.Router();
 
 // Student model
-let Student = require('../model/Student');
+let Student = require('../models/Student');
 
 // Add Student
 studentRoute.route('/add-student').post((req, res, next) => {
